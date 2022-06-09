@@ -2,7 +2,6 @@
   "name": "icons",
   "version": "1.0.0",
   "description": "Lightweight icon library.",
-  "private": true,
   "keywords": [
     "font",
     "verme",
@@ -10,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/AleksiMagner/icons.git"
+    "url": "git@github.com:AleksiMagner/icons.git"
   },
   "publishConfig": {
     "@AleksiMagner:registry": "https://npm.pkg.github.com"
