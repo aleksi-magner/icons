@@ -10,7 +10,6 @@
   ],
   "homepage": "https://github.com/aleksi-magner/icons#readme",
   "repository": "git+ssh://git@github.com/aleksi-magner/icons.git",
-  "private": true,
   "bugs": {
     "url": "https://github.com/aleksi-magner/icons/issues"
   },
