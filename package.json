@@ -1,7 +1,7 @@
 {
   "name": "@aleksi-magner/icons",
   "author": "Aleksi Magner",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Lightweight icon library.",
   "keywords": [
     "font",
@@ -9,10 +9,7 @@
     "icons"
   ],
   "homepage": "https://github.com/aleksi-magner/icons#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/aleksi-magner/icons.git"
-  },
+  "repository": "git+ssh://git@github.com/aleksi-magner/icons.git",
   "bugs": {
     "url": "https://github.com/aleksi-magner/icons/issues"
   },
