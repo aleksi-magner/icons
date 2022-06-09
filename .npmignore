@@ -2,4 +2,8 @@
 .DS_Store
 /npm-debug.log
 /node_modules
-.editorconfig
+/.editorconfig
+/Icons-project.json
+/svg
+/README.md
+/sizes.png

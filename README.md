@@ -6,14 +6,14 @@
 https://icomoon.io/app/
 ```
 
-1. Upload an icon project file to the service - `Icons Project.json`
+1. Upload an icon project file to the service - `Icons-project.json`
 
 
 2. After change:
 * Replace icon fonts in `dist/fonts`
 * Update styles (do not replace) `dist/icons.css`
 * Add new svg images to `svg` folder
-* Save modified project `Icons Project.json`
+* Save modified project `Icons-project.json`
 
 
 ### Icon options
