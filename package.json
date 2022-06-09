@@ -1,7 +1,7 @@
 {
   "name": "@aleksi-magner/icons",
   "author": "Aleksi Magner",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Lightweight icon library.",
   "keywords": [
     "font",
@@ -10,11 +10,9 @@
   ],
   "homepage": "https://github.com/aleksi-magner/icons#readme",
   "repository": "git+ssh://git@github.com/aleksi-magner/icons.git",
+  "private": true,
   "bugs": {
     "url": "https://github.com/aleksi-magner/icons/issues"
-  },
-  "publishConfig": {
-    "@aleksi-magner:registry": "https://npm.pkg.github.com"
   },
   "license": "MIT",
   "main": "dist/icons.css",
