@@ -25,13 +25,13 @@ https://icomoon.io/app/
 ### Installing
 
 ```shell
-npm i icons
+npm i @aleksi-magner/icons
 ```
 
 or
 
 ```shell
-yarn add icons
+yarn add @aleksi-magner/icons
 ```
 
 ### Usage
