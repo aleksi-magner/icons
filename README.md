@@ -25,13 +25,13 @@ https://icomoon.io/app/
 ### Installing
 
 ```shell
-npm i line-awesome
+npm i icons
 ```
 
 or
 
 ```shell
-yarn add line-awesome
+yarn add icons
 ```
 
 ### Usage
