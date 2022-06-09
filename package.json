@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git://github.com/AleksiMagner/icons.git"
   },
+  "publishConfig": {
+    "@AleksiMagner:registry": "https://npm.pkg.github.com"
+  },
   "license": "MIT",
   "main": "dist/icons.css",
   "scripts": {}
