@@ -1,13 +1,12 @@
 {
   "name": "vi-icons",
   "author": "Aleksi Magner",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Lightweight icon library.",
   "license": "MIT",
   "main": "icons.css",
   "scripts": {
-    "patch": "npm version patch --force -m 'Upgrade to %s' && git push && git push --tags",
-    "publish": "npm publish",
+    "patch": "npm version patch --force -m 'Upgrade to %s' && git push && git push --tags && npm publish",
     "test": "exit 0"
   }
 }
