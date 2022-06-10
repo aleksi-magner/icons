@@ -44,7 +44,7 @@ yarn add vi-icons
 import 'vi-icons/icons.css';
 ```
 
-![](sizes.png)
+![](https://github.com/aleksi-magner/icons/blob/master/sizes.png)
 
 You can change the size of the icons using one of the following classes:
 
