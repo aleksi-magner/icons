@@ -38,7 +38,13 @@ yarn add vi-icons
 <i class="vi vi-person"></i>
 ```
 
-![](./sizes.png)
+### Include the core styling file
+
+```javascript
+import 'vi-icons/icons.css';
+```
+
+![](sizes.png)
 
 You can change the size of the icons using one of the following classes:
 
