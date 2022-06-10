@@ -1,9 +1,14 @@
-.idea
-.DS_Store
-/npm-debug.log
-/node_modules
-/.editorconfig
-/Icons-project.json
-/svg
-/README.md
-/sizes.png
+*.log
+npm-debug.log*
+
+# npm package lock
+package-lock.json
+yarn.lock
+
+# project files
+svg
+.editorconfig
+.gitignore
+icons-project.json
+README.md
+sizes.png

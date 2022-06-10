@@ -6,15 +6,13 @@
 https://icomoon.io/app/
 ```
 
-1. Upload an icon project file to the service - `Icons-project.json`
-
+1. Upload an icon project file to the service - `icons-project.json`
 
 2. After change:
-* Replace icon fonts in `dist/fonts`
-* Update styles (do not replace) `dist/icons.css`
+* Replace icon fonts in `fonts`
+* Update styles (do not replace) `icons.css`
 * Add new svg images to `svg` folder
-* Save modified project `Icons-project.json`
-
+* Save modified project `icons-project.json`
 
 ### Icon options
 
@@ -25,13 +23,13 @@ https://icomoon.io/app/
 ### Installing
 
 ```shell
-npm i @aleksi-magner/icons
+npm i vi-icons
 ```
 
 or
 
 ```shell
-yarn add @aleksi-magner/icons
+yarn add vi-icons
 ```
 
 ### Usage
@@ -39,6 +37,8 @@ yarn add @aleksi-magner/icons
 ```html
 <i class="vi vi-person"></i>
 ```
+
+![](./sizes.png)
 
 You can change the size of the icons using one of the following classes:
 
@@ -50,11 +50,10 @@ You can change the size of the icons using one of the following classes:
 * icon-3x
 * icon-big-logo
 
-![](./sizes.png)
-
 ## Good Boy License
 
 We’ve released the icon pack either under MIT or the Good Boy License. We invented it. Please do _whatever your mom would approve of:_
+
 * Download
 * Change
 * Fork

@@ -1,21 +1,12 @@
 {
-  "name": "@aleksi-magner/icons",
+  "name": "vi-icons",
   "author": "Aleksi Magner",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Lightweight icon library.",
-  "keywords": [
-    "font",
-    "verme",
-    "icons"
-  ],
-  "homepage": "https://github.com/aleksi-magner/icons#readme",
-  "repository": "git+ssh://git@github.com/aleksi-magner/icons.git",
-  "bugs": {
-    "url": "https://github.com/aleksi-magner/icons/issues"
-  },
   "license": "MIT",
   "main": "icons.css",
   "scripts": {
+    "patch": "npm version patch --force -m 'Upgrade to %s' && git push && git push --tags",
     "test": "exit 0"
   }
 }
