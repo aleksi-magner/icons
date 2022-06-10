@@ -1,12 +1,15 @@
 {
   "name": "vi-icons",
   "author": "Aleksi Magner",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Lightweight icon library.",
   "license": "MIT",
   "main": "icons.css",
   "scripts": {
-    "patch": "npm version patch --force -m 'Upgrade to %s' && git push && git push --tags && npm publish",
+    "deploy": "git push && git push --tags && npm publish",
+    "patch": "git add . && npm version patch --force -m 'Upgrade to %s' && npm run deploy",
+    "minor": "git add . && npm version minor --force -m 'Upgrade to %s' && npm run deploy",
+    "major": "git add . && npm version major --force -m 'Upgrade to %s' && npm run deploy",
     "test": "exit 0"
   }
 }
