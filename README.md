@@ -58,7 +58,7 @@ You can change the size of the icons using one of the following classes:
 
 ## Demo
 
-[Demo page](https://github.com/aleksi-magner/icons/blob/master/demo.html "Demo page")
+[Demo page](https://htmlpreview.github.io/?https://github.com/aleksi-magner/icons/blob/master/index.html "Demo page")
 
 ## Good Boy License
 
