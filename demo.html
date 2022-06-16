@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Vi Icons Demo</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="icons.css" />
+
+    <style>
+      :root {
+        --base: #53565b;
+        --success: #42b983;
+        --warning: #fb8c00;
+        --white: #ffffff;
+        --border-radius: 4px;
+        --border-color: #eaedf0;
+        --bg: #f5f5f5;
+        --box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.12);
+        --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        font-weight: 400;
+        color: var(--base);
+        background-color: var(--bg);
+        box-sizing: border-box;
+      }
+
+      h2 {
+        display: block;
+        margin: 0 auto;
+        padding: 20px 0;
+        font-weight: 400;
+        text-align: center;
+        color: inherit;
+        box-sizing: border-box;
+      }
+
+      .container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 12px;
+        margin: 0 auto;
+        padding: 12px;
+        width: 100%;
+        max-width: 700px;
+        box-sizing: border-box;
+      }
+
+      .icon-wrap {
+        display: inline-flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin: 0;
+        padding: 8px;
+        color: inherit;
+        border-radius: var(--border-radius);
+        border: thin solid var(--warning);
+        background-color: var(--white);
+        box-sizing: border-box;
+      }
+
+      .notifications-wrap {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 6px;
+        pointer-events: none;
+        margin: 0;
+        padding: 8px;
+        width: 100%;
+        min-height: 100vh;
+        box-sizing: border-box;
+        overflow: hidden;
+        z-index: 9999999;
+      }
+
+      .notify {
+        display: inline-flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        opacity: 1;
+        cursor: default;
+        pointer-events: auto;
+        padding: 8px 12px;
+        max-width: 90%;
+        font-family: inherit;
+        font-size: 0.9rem;
+        font-weight: 400;
+        letter-spacing: 0.01em;
+        line-height: 1.15rem;
+        color: var(--white);
+        border-radius: var(--border-radius);
+        border: none;
+        background-color: var(--success);
+        box-shadow: var(--box-shadow);
+        transition-property: opacity;
+        transition-duration: 0.2s;
+        transition-timing-function: var(--timing-function);
+        box-sizing: border-box;
+        user-select: none;
+        overflow: hidden;
+      }
+
+      .notify__body {
+        flex: 1;
+        word-break: break-word;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>Click on the icon to copy the code</h2>
+
+    <div class="container"></div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const container = document.querySelector('.container');
+
+        const icons = [
+          'add-circle',
+          'add-square',
+          'remove-circle',
+          'remove-square',
+          'angle-left',
+          'angle-right',
+          'angle-up',
+          'angle-down',
+          'arrow-left',
+          'arrow-right',
+          'arrow-up',
+          'arrow-down',
+          'long-arrow-left',
+          'long-arrow-right',
+          'long-arrow-up',
+          'long-arrow-down',
+          'expand',
+          'drop-down',
+          'select',
+          'drag',
+          'close',
+          'backspace',
+          'ellipsis-v',
+          'download',
+          'upload',
+          'link',
+          'email',
+          'attachment',
+          'checkbox-empty',
+          'checkbox-selected',
+          'radio-empty',
+          'radio-selected',
+          'checkmark',
+          'checkmark-double',
+          'list-check',
+          'done',
+          'info',
+          'question',
+          'warning',
+          'error',
+          'ban',
+          'offer',
+          'send',
+          'clock',
+          'star',
+          'star-half',
+          'star-empty',
+          'pen',
+          'eraser',
+          'filter',
+          'copy',
+          'paste',
+          'trash',
+          'phone',
+          'mobile',
+          'mobile-friendly',
+          'push-notifications',
+          'mobile-marker',
+          'timestamp',
+          'map',
+          'location',
+          'location-off',
+          'location-add',
+          'search-location',
+          'search',
+          'file-empty',
+          'file-add',
+          'file',
+          'file-invoice',
+          'file-contract',
+          'files',
+          'documents',
+          'bell',
+          'mail',
+          'mail-open',
+          'messages',
+          'message-question',
+          'popup',
+          'personal-card',
+          'person',
+          'key',
+          'lock',
+          'calendar',
+          'settings',
+          'shield',
+          'protection',
+          'scroll',
+          'certificate-document',
+          'certificate',
+          'ticket',
+          'graduation',
+          'support',
+          'logout',
+          'qrcode',
+          'gift',
+          'signature',
+          'store',
+          'walking',
+          'car',
+          'taxi',
+          'bus',
+          'trolleybus',
+          'tram',
+          'mountain-tram',
+          'metro',
+          'subway',
+          'train',
+          'ship',
+          'airplane',
+          'visa',
+          'mastercard',
+          'google-pay',
+          'apple-pay',
+          'paypal',
+          'app-store',
+          'play-store',
+          'telegram',
+          'whatsapp',
+          'vk',
+          'odnoklassniki',
+          'youtube',
+          'verme',
+          'share',
+        ];
+
+        // Notify
+        let notificationWrap = null;
+        let count = 0;
+        let shownMessages = [];
+
+        const hideNotify = element => {
+          element.style.opacity = '0';
+
+          const whenTransitionEnd = () => {
+            element.parentElement.removeChild(element);
+            element.removeEventListener('transitionend', whenTransitionEnd);
+
+            shownMessages = shownMessages.filter(number => number !== count);
+            count -= 1;
+
+            if (!shownMessages.length && notificationWrap) {
+              document.body.removeChild(notificationWrap);
+
+              notificationWrap = null;
+              count = 0;
+            }
+          };
+
+          element.addEventListener('transitionend', whenTransitionEnd);
+        };
+
+        const showNotify = iconCode => {
+          const newMessages = document.createElement('div');
+
+          newMessages.classList.add('notify');
+          newMessages.textContent = `${iconCode} copied!`;
+
+          count += 1;
+
+          shownMessages.push(count);
+
+          if (!notificationWrap) {
+            notificationWrap = document.createElement('div');
+
+            notificationWrap.classList.add('notifications-wrap');
+            document.body.insertAdjacentElement('afterBegin', notificationWrap);
+          }
+
+          notificationWrap.insertAdjacentElement('afterBegin', newMessages);
+
+          setTimeout(hideNotify.bind(this, newMessages), 3000);
+          clearTimeout(hideNotify);
+        };
+
+        // Icon render
+        const iconTemplate = key => `
+          <div class="icon-wrap" data-code="vi-${key}">
+            <i class="vi vi-${key} icon-2x"></i>
+          </div>
+        `;
+
+        icons.forEach(icon => {
+          container.insertAdjacentHTML('beforeEnd', iconTemplate(icon));
+        });
+
+        container.addEventListener('click', event => {
+          const target = event.target.closest('.icon-wrap');
+
+          if (target) {
+            const code = target.dataset.code;
+
+            window.navigator.clipboard.writeText(code);
+            showNotify(code);
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

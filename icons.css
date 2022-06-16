@@ -1,8 +1,7 @@
 @font-face {
-  font-family: 'Verme-Icons';
-  src: url('fonts/Verme-Icons.ttf?3orov7') format('truetype'),
-    url('fonts/Verme-Icons.woff?3orov7') format('woff'),
-    url('fonts/Verme-Icons.svg?3orov7#Verme-Icons') format('svg');
+  font-family: 'Vi';
+  src: url('fonts/Vi.ttf?93fqd9') format('truetype'), url('fonts/Vi.woff?93fqd9') format('woff'),
+    url('fonts/Vi.svg?93fqd9#Vi') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -10,7 +9,7 @@
 
 .vi {
   speak: never;
-  font-family: 'Verme-Icons' !important;
+  font-family: 'Vi' !important;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;

@@ -1,7 +1,7 @@
 {
   "name": "vi-icons",
   "author": "Aleksi Magner",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Lightweight icon library.",
   "license": "MIT",
   "main": "icons.css",

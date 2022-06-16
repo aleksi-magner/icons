@@ -6,13 +6,13 @@
 https://icomoon.io/app/
 ```
 
-1. Upload an icon project file to the service - `icons-project.json`
+1. Upload an icon project file to the service - `vi-icons.json`
 
 2. After change:
 * Replace icon fonts in `fonts`
 * Update styles (do not replace) `icons.css`
 * Add new svg images to `svg` folder
-* Save modified project `icons-project.json`
+* Save modified project `vi-icons.json`
 
 ### Icon options
 
@@ -55,6 +55,10 @@ You can change the size of the icons using one of the following classes:
 * icon-2x
 * icon-3x
 * icon-big-logo
+
+## Demo
+
+[Demo page](https://github.com/aleksi-magner/icons/blob/master/demo.html "Demo page")
 
 ## Good Boy License
 
