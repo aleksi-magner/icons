@@ -2,9 +2,7 @@
 
 ### Service for adding, replacing and removing icons
 
-```text
-https://icomoon.io/app/
-```
+[IcoMoon](https://icomoon.io/app/)
 
 1. Upload an icon project file to the service - `vi-icons.json`
 
@@ -58,7 +56,7 @@ You can change the size of the icons using one of the following classes:
 
 ## Demo
 
-[Demo page](https://htmlpreview.github.io/?https://github.com/aleksi-magner/icons/master/demo.html "List of available icons")
+[Demo page](https://htmlpreview.github.io/?https://github.com/aleksi-magner/icons/master/index.html "List of available icons")
 
 ## Good Boy License
 
