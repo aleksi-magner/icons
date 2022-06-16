@@ -26,5 +26,6 @@ svg
 .editorconfig
 .gitignore
 .prettierrc.js
-vi-icons.json
+index.html
 sizes.png
+vi-icons.json
