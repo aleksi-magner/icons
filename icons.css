@@ -9,6 +9,7 @@
 
 .vi {
   speak: never;
+  opacity: inherit;
   font-family: 'Vi' !important;
   font-style: normal;
   font-weight: normal;
