@@ -20,31 +20,31 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Icon sizes. Don't delete */
-.icon-xs {
-  font-size: 0.75em !important;
+/* Don't delete */
+.vi--disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+  filter: grayscale(1) opacity(0.4);
 }
 
 .icon-sm {
-  font-size: 0.875em !important;
-}
-
-.icon-lg {
-  font-size: 1.33333em !important;
-  line-height: 0.75em;
-  vertical-align: -0.0667em;
+  font-size: 0.75rem !important;
 }
 
 .icon-1x {
-  font-size: 1em !important;
+  font-size: 1rem !important;
+}
+
+.icon-lg {
+  font-size: 1.5rem !important;
 }
 
 .icon-2x {
-  font-size: 2em !important;
+  font-size: 2rem !important;
 }
 
 .icon-3x {
-  font-size: 3em !important;
+  font-size: 2.5rem !important;
 }
 
 .icon-big-logo {
