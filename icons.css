@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'Vi';
-  src: url('fonts/Vi.ttf?anvpjn') format('truetype'), url('fonts/Vi.woff?anvpjn') format('woff'),
-    url('fonts/Vi.svg?anvpjn#Vi') format('svg');
+  src: url('fonts/Vi.ttf?x6rehw') format('truetype'), url('fonts/Vi.woff?x6rehw') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -52,7 +51,6 @@
 }
 
 /* Icons */
-
 .vi-add:before {
   content: '\e928';
 }
@@ -196,6 +194,15 @@
 }
 .vi-star-empty:before {
   content: '\e979';
+}
+.vi-heart:before {
+  content: '\e97c';
+}
+.vi-heart-empty:before {
+  content: '\e97d';
+}
+.vi-moon:before {
+  content: '\e97e';
 }
 .vi-pen:before {
   content: '\e940';
