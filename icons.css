@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Vi';
-  src: url('fonts/Vi.ttf?x6rehw') format('truetype'), url('fonts/Vi.woff?x6rehw') format('woff');
+  src: url('fonts/Vi.ttf?gw7jat') format('truetype'), url('fonts/Vi.woff?gw7jat') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -51,20 +51,8 @@
 }
 
 /* Icons */
-.vi-add:before {
-  content: '\e928';
-}
 .vi-add-circle:before {
   content: '\e900';
-}
-.vi-add-square:before {
-  content: '\e901';
-}
-.vi-remove-circle:before {
-  content: '\e902';
-}
-.vi-remove-square:before {
-  content: '\e903';
 }
 .vi-angle-left:before {
   content: '\e904';
@@ -81,53 +69,11 @@
 .vi-arrow-left:before {
   content: '\e933';
 }
-.vi-arrow-right:before {
-  content: '\e934';
-}
-.vi-arrow-up:before {
-  content: '\e935';
-}
-.vi-arrow-down:before {
-  content: '\e936';
-}
-.vi-long-arrow-left:before {
-  content: '\e937';
-}
-.vi-long-arrow-right:before {
-  content: '\e938';
-}
-.vi-long-arrow-up:before {
-  content: '\e939';
-}
-.vi-long-arrow-down:before {
-  content: '\e93a';
-}
-.vi-expand:before {
-  content: '\e92c';
-}
-.vi-drop-down:before {
-  content: '\e92d';
-}
-.vi-select:before {
-  content: '\e927';
-}
-.vi-drag:before {
-  content: '\e92e';
-}
 .vi-close:before {
   content: '\e92b';
 }
 .vi-backspace:before {
   content: '\e92f';
-}
-.vi-ellipsis-v:before {
-  content: '\e930';
-}
-.vi-download:before {
-  content: '\e93b';
-}
-.vi-upload:before {
-  content: '\e93c';
 }
 .vi-link:before {
   content: '\e93d';
@@ -138,26 +84,8 @@
 .vi-attachment:before {
   content: '\e93e';
 }
-.vi-checkbox-empty:before {
-  content: '\e908';
-}
-.vi-checkbox-selected:before {
-  content: '\e909';
-}
-.vi-radio-empty:before {
-  content: '\e90a';
-}
-.vi-radio-selected:before {
-  content: '\e90b';
-}
 .vi-checkmark:before {
   content: '\e912';
-}
-.vi-checkmark-double:before {
-  content: '\e913';
-}
-.vi-list-check:before {
-  content: '\e93f';
 }
 .vi-done:before {
   content: '\e90c';
@@ -173,12 +101,6 @@
 }
 .vi-error:before {
   content: '\e910';
-}
-.vi-ban:before {
-  content: '\e911';
-}
-.vi-offer:before {
-  content: '\e931';
 }
 .vi-send:before {
   content: '\e914';
@@ -207,9 +129,6 @@
 .vi-pen:before {
   content: '\e940';
 }
-.vi-eraser:before {
-  content: '\e941';
-}
 .vi-filter:before {
   content: '\e942';
 }
@@ -225,20 +144,8 @@
 .vi-phone:before {
   content: '\e946';
 }
-.vi-mobile:before {
-  content: '\e948';
-}
-.vi-mobile-friendly:before {
-  content: '\e949';
-}
 .vi-push-notifications:before {
   content: '\e94a';
-}
-.vi-mobile-marker:before {
-  content: '\e94b';
-}
-.vi-timestamp:before {
-  content: '\e94c';
 }
 .vi-map:before {
   content: '\e94d';
@@ -249,26 +156,11 @@
 .vi-location-off:before {
   content: '\e94f';
 }
-.vi-location-add:before {
-  content: '\e950';
-}
-.vi-search-location:before {
-  content: '\e951';
-}
 .vi-search:before {
   content: '\e952';
 }
-.vi-file-empty:before {
-  content: '\e965';
-}
-.vi-file-add:before {
-  content: '\e966';
-}
 .vi-file:before {
   content: '\e967';
-}
-.vi-file-invoice:before {
-  content: '\e968';
 }
 .vi-file-contract:before {
   content: '\e969';
@@ -279,26 +171,8 @@
 .vi-documents:before {
   content: '\e954';
 }
-.vi-bell:before {
-  content: '\e953';
-}
-.vi-mail:before {
-  content: '\e955';
-}
-.vi-mail-open:before {
-  content: '\e956';
-}
-.vi-messages:before {
-  content: '\e957';
-}
-.vi-message-question:before {
-  content: '\e958';
-}
 .vi-popup:before {
   content: '\e959';
-}
-.vi-personal-card:before {
-  content: '\e96b';
 }
 .vi-person:before {
   content: '\e97a';
@@ -306,20 +180,11 @@
 .vi-key:before {
   content: '\e925';
 }
-.vi-lock:before {
-  content: '\e926';
-}
 .vi-calendar:before {
   content: '\e96c';
 }
-.vi-settings:before {
-  content: '\e95a';
-}
 .vi-shield:before {
   content: '\e95b';
-}
-.vi-protection:before {
-  content: '\e95c';
 }
 .vi-scroll:before {
   content: '\e95d';
@@ -329,9 +194,6 @@
 }
 .vi-certificate:before {
   content: '\e95f';
-}
-.vi-ticket:before {
-  content: '\e960';
 }
 .vi-graduation:before {
   content: '\e961';
@@ -345,71 +207,11 @@
 .vi-qrcode:before {
   content: '\e916';
 }
-.vi-gift:before {
-  content: '\e964';
-}
-.vi-signature:before {
-  content: '\e917';
-}
 .vi-store:before {
   content: '\e97b';
 }
-.vi-walking:before {
-  content: '\e96d';
-}
-.vi-car:before {
-  content: '\e96e';
-}
-.vi-taxi:before {
-  content: '\e96f';
-}
-.vi-bus:before {
-  content: '\e970';
-}
-.vi-trolleybus:before {
-  content: '\e971';
-}
-.vi-tram:before {
-  content: '\e972';
-}
-.vi-mountain-tram:before {
-  content: '\e973';
-}
-.vi-metro:before {
-  content: '\e974';
-}
 .vi-subway:before {
   content: '\e975';
-}
-.vi-train:before {
-  content: '\e976';
-}
-.vi-ship:before {
-  content: '\e977';
-}
-.vi-airplane:before {
-  content: '\e978';
-}
-.vi-visa:before {
-  content: '\e918';
-}
-.vi-mastercard:before {
-  content: '\e919';
-}
-.vi-google-pay:before {
-  content: '\e91a';
-}
-.vi-apple-pay:before {
-  content: '\e91b';
-}
-.vi-paypal:before {
-  content: '\e91c';
-}
-.vi-app-store:before {
-  content: '\e91d';
-}
-.vi-play-store:before {
-  content: '\e91e';
 }
 .vi-telegram:before {
   content: '\e920';
@@ -423,12 +225,6 @@
 .vi-odnoklassniki:before {
   content: '\e921';
 }
-.vi-youtube:before {
-  content: '\e929';
-}
 .vi-verme:before {
   content: '\e92a';
-}
-.vi-share:before {
-  content: '\e932';
 }
