@@ -132,6 +132,8 @@
       document.addEventListener('DOMContentLoaded', () => {
         const container = document.querySelector('.container');
 
+        container.innerHTML = '';
+
         const icons = [
           'add-circle',
           'angle-left',
@@ -192,6 +194,8 @@
           'vk',
           'odnoklassniki',
           'verme',
+          'play',
+          'pause',
         ];
 
         // Notify
@@ -251,18 +255,21 @@
         `;
 
         icons.forEach(icon => {
-          container.insertAdjacentHTML('beforeEnd', iconTemplate(icon));
+          container.insertAdjacentHTML('beforeend', iconTemplate(icon));
         });
 
         container.addEventListener('click', event => {
           const target = event.target.closest('.icon-wrap');
 
-          if (target) {
-            const code = target.dataset.code;
-
-            window.navigator.clipboard.writeText(code);
-            showNotify(code);
+          if (!target) {
+            return;
           }
+
+          const code = target.dataset.code;
+
+          window.navigator.clipboard.writeText(code);
+
+          showNotify(code);
         });
       });
     </script>

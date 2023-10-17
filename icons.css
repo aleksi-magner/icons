@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Vi';
-  src: url('fonts/Vi.ttf?gw7jat') format('truetype'), url('fonts/Vi.woff?gw7jat') format('woff');
+  src: url('fonts/Vi.ttf?seyac4') format('truetype'), url('fonts/Vi.woff?seyac4') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -227,4 +227,10 @@
 }
 .vi-verme:before {
   content: '\e92a';
+}
+.vi-play:before {
+  content: '\e901';
+}
+.vi-pause:before {
+  content: '\e902';
 }
